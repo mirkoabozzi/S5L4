@@ -25,3 +25,23 @@ main {
   margin-top: 3rem;
   line-height: 1.5rem;
 }
+i {
+  color: #009dff;
+  display: block;
+}
+span {
+  display: inline-block;
+}
+
+@keyframes rollWords {
+  0% {
+    opacity: 0;
+    transform: translate(-1px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
