@@ -34,17 +34,17 @@ i {
   display: block;
   position: absolute;
   bottom: 0;
-  transform: translate(191px, -19px);
+  transform: translate(191px, -20px);
   animation: rollWords 3s 1s infinite;
   opacity: 0;
 }
 
 .parole i:nth-child(2) {
-  transform: translate(191px, -19px);
+  transform: translate(191px, -20px);
   animation: rollWords 3s 2s infinite;
 }
 .parole i:nth-child(3) {
-  transform: translate(191px, -19px);
+  transform: translate(191px, -20px);
   animation: rollWords 3s 3s infinite;
 }
 
