@@ -8,3 +8,20 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+  min-width: 700px;
+  padding: 1rem;
+  border: 2px solid rgb(101, 101, 101);
+  margin-top: 3rem;
+  line-height: 1.5rem;
+}
